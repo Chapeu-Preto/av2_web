@@ -1,0 +1,57 @@
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    margin: 0;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: #444464;
+}
+* {
+    box-sizing: border-box;
+}
+#login {
+    width: 30%;
+    height: 70%;
+    display: grid;
+    justify-items: left;
+    align-items: center;
+    background-color: #1c3c58;
+    border-radius: 3px;
+}
+#login-header {
+    height: 80%;
+    width: 53%;
+    border: none;
+    border-bottom: 1px solid azure;
+}
+#login-form {
+    align-self: center;
+    justify-self: auto;
+    display: grid;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+#login-form-submit {
+    height: 140%;
+    background-color: #a83c54;
+    margin-top: 10%;
+    width: 205%;
+    border: none;
+    color: azure;
+}
+#login-page-footer {
+    height: 100%;
+    justify-self: center;
+}
+.login-page-titles {
+    color: azure;
+}
+.login-form-field {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid azure;
+    width: 200%;
+}
